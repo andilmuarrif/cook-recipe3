@@ -1,0 +1,7 @@
+{
+  "name": "cook-recipe3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
