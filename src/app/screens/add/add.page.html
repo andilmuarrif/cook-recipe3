@@ -1,0 +1,52 @@
+<ion-content>
+  <div class="header">
+    <h1>Tambah Resep</h1> 
+  </div>
+
+  <form>
+    <div><h5>Nama Resep Masakan</h5>
+      <app-input label="Nama Resep Masakan"><ion-input type="text"></ion-input></app-input>
+    </div>
+
+    <div><h5>Waktu Memasak</h5>
+      <app-input label="Waktu Memasak"><ion-input type="text"></ion-input></app-input>
+    </div>
+
+    <div><h5>Porsi Makanan</h5>
+      <app-input label="Porsi Masakan"><ion-input type="text"></ion-input></app-input>
+    </div>
+    
+    <div><h5>Nama Bahan</h5>
+      <app-input label="Masukkan Nama Bahan"><ion-input type="text"></ion-input></app-input>
+    </div>
+
+    <div type="text"><h5>Kategori</h5>
+      <ion-list>
+        <ion-item>
+          <ion-label type="text">Pilih Kategori</ion-label>
+          <ion-select interface="popover" placeholder="Pilih" type="text">
+            <ion-select-option value="apples">Makanan</ion-select-option>
+            <ion-select-option value="oranges">Minuman</ion-select-option>
+            <ion-select-option value="bananas">Lainnya</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    </div>
+    
+  </form>
+
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Kategori</ion-label>
+      <ion-select interface="popover" placeholder="Pilih">
+        <ion-select-option value="apples">Makanan</ion-select-option>
+        <ion-select-option value="oranges">Minuman</ion-select-option>
+        <ion-select-option value="bananas">Lainnya</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  
+
+</ion-content>

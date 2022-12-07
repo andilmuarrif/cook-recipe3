@@ -1,0 +1,58 @@
+<ion-content>
+  <div class="header">
+    <ion-buttons slot="start">
+      <ion-button routerLink="/home/listing">
+        <ion-icon slot="icon-only" color=;light name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-buttons>
+      <ion-button>
+        <ion-icon slot="icon-only" color='light' name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </div>
+
+  <!-- RECIPE DETAIL -->
+  <div class="card">
+    <div class="image">
+      <ion-img [src]="recipe.image"></ion-img>
+    </div>
+
+    <div class="card-content">
+      <div class="card-title">
+        <h1 class="ion-no-margin">{{recipe.title}}</h1>
+        <div class="ion-no-margin"><p>Kategori : {{recipe.category}}</p></div>
+
+        <div class="ingredient">
+          <h3>Bahan</h3>
+          <h5>{{recipe.item1}}</h5>
+          <h5>{{recipe.item2}}</h5>
+          <h5>{{recipe.item3}}</h5>
+          <h5>{{recipe.item4}}</h5>
+          <h5>{{recipe.item5}}</h5>
+          <h5>{{recipe.item6}}</h5>
+          <h5>{{recipe.item7}}</h5>
+          <h5>{{recipe.item8}}</h5>
+          <h5>{{recipe.item9}}</h5>
+          <h5>{{recipe.item10}}</h5>
+        </div>
+
+        <div class="tutorial">
+          <h3>Cara Buat</h3>
+          <h5>{{recipe.desc1}}</h5>
+          <h5>{{recipe.desc2}}</h5>
+          <h5>{{recipe.desc3}}</h5>
+          <h5>{{recipe.desc4}}</h5>
+          <h5>{{recipe.desc5}}</h5>
+          <h5>{{recipe.desc6}}</h5>
+          <h5>{{recipe.desc7}}</h5>
+          <h5>{{recipe.desc8}}</h5>
+          <h5>{{recipe.desc9}}</h5>
+          <h5>{{recipe.desc10}}</h5>
+        </div>
+      </div>
+    </div>    
+  </div>
+
+</ion-content>

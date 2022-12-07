@@ -1,0 +1,14 @@
+<ion-content class="ion-padding">
+  <h1>Cook Recipe App</h1>
+  <h5>Silahkan Login Terlebih Dahulu.</h5>
+
+
+  <form>
+    <app-input label="Email ID"><ion-input type="text"></ion-input></app-input>
+    <app-input label="Password"><ion-input type="password"></ion-input></app-input>
+
+    <app-button label='Login' (click)="login()"></app-button>
+  </form>
+
+  <p class="footer-text">Belum punya akun? <a routerLink="/register">Register</a></p>
+</ion-content>
